@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -73,7 +73,7 @@ The following hosted generative art services offer turnkey browser or API genera
 
 ## 💻 Open-Source GitHub Projects
 
-Curated list of open-source diffusion models, graphical web UIs, prompt assistants, conditioning tools, and image pipelines, sorted by GitHub star count in descending order:
+Curated list of open-source diffusion models, graphical web UIs, prompt assistants, conditioning tools, and image pipelines, sorted by GitHub Stars_Count in descending order:
 
 - **[AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)** [![Stars](https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=social&color=white)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/stargazers)  
   The quintessential open-source (`GPL-3.0`) Gradio-based browser interface for Stable Diffusion, featuring an enormous library of community extensions, Prompt Matrix, X/Y/Z plotters, and batch processing.
@@ -174,7 +174,7 @@ We welcome community additions, benchmark updates, and prompt design tools!
 1. 🍴 **Fork the Repository** to your own GitHub account.
 2. 🌿 **Create a Branch** (`git checkout -b feature/new-art-tool`).
 3. 📝 **Add Your Resource**:
-   - For open-source repositories, provide the exact GitHub repository identifier with a Shields.io star badge (`?style=social&color=white`) linking to its stargazers page.
+   - For open-source repositories, provide the exact GitHub repository identifier with a Shields.io Stars_Badge (`?style=social&color=white`) linking to its stargazers page.
    - For SaaS tools, provide exact starting tier prices and specific free tier limits.
 4. 📬 **Submit a Pull Request** with a descriptive summary of why the tool provides distinct value to creators.
 

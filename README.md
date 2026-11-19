@@ -1,42 +1,77 @@
-# Awesome-AI-Art-Generation-Prompt-Crafting
+<div align="center">
 
-## Top AI Art Generation & Prompt Crafting Ecosystem
+<img src="./assets/banner.svg" alt="Awesome AI Art Generation and Prompt Crafting Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Text-to-Image Diffusion Models, Local Node-Based Generation UIs, Prompt Engineering & Style Crafting Toolkits*  
-**Last updated: November 2026**
+# 🎨 Awesome AI Art Generation & Prompt Crafting
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Art Generation & Prompt Crafting**. These tools synthesize high-resolution illustrations, photorealistic renders, vector graphics, and consistent character art from text or image prompts, while offering visual prompt builders, node-based ComfyUI workflows, and local GPU inference interfaces.
+### ⚡ The Definitive Directory of Text-to-Image Foundation Models, Local Node UIs, Generative Art SaaS & Visual Prompt Engineering
 
-**Examples** include Midjourney, OpenAI GPT Image / DALL·E 3, Black Forest Labs FLUX.1, Ideogram, Recraft, Leonardo.ai, Adobe Firefly, Artbreeder, NightCafe, Stable Diffusion Cloud, and storytold/artcraft (the category leaders). 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for open-weight image generation models (`FLUX.1 [dev/schnell]`, `SDXL`, `SD 3.5`, `HiDream-I1`, `Kolors`), local web/desktop generation UIs (`ComfyUI`, `Automatic1111`, `Forge`, `InvokeAI`, `Fooocus`, `SwarmUI`), and prompt-crafting assistants — ideal for digital artists, illustrators, designers, and AI researchers building uncensored, local GPU art pipelines.
+**Curated collection of frontier AI image synthesis models, local WebUI environments, creative studio software, and advanced prompt engineering toolkits.**  
+*Last updated: November 2026*
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+</div>
 
-## Table of Contents
+---
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 📖 Overview & SEO Summary
 
-## SaaS/Hosted Platforms
+Welcome to the **Awesome AI Art Generation & Prompt Crafting** repository — an open knowledge base designed for digital illustrators, creative technologists, AI researchers, concept artists, and visual designers. 
 
-| Platform | Pricing / Subscription | Free Tier & Limits | Description & Key Strengths |
-| :--- | :--- | :--- | :--- |
-| **[Midjourney](https://midjourney.com)** | Basic ($10/mo), Standard ($30/mo), Pro ($60/mo), Mega ($120/mo) | No permanent free tier (occasional free trial promos) | Premier cloud AI art generation platform and web studio renowned for artistic coherence, style references (`--sref`), character consistency, and moodboard prompt crafting. |
-| **[OpenAI GPT Image / DALL·E 3](https://openai.com)** | ChatGPT Plus ($20/mo), Pro ($200/mo), API ($0.040 - $0.120 / image) | Free tier available via ChatGPT (limited to ~2-3 image generations per day) | Multimodal image generation and editing suite deeply integrated with ChatGPT and OpenAI API for natural-language prompt refinement and accurate typography. |
-| **[Black Forest Labs (FLUX.1 Pro / Ultra)](https://blackforestlabs.ai)** | Pay-per-generation API (~$0.025 - $0.06 / image via partners like fal.ai, Replicate, Together AI) | No direct free tier on official API (partner credits vary) | Frontier generative image platform and API offering state-of-the-art prompt adherence, photorealism, typography, and structural image editing (`FLUX.1 Kontext`). |
-| **[Ideogram](https://ideogram.ai)** | Basic ($8/mo), Plus ($20/mo), Pro ($60/mo) | Free tier: 10 slow credits daily (~20-40 images/month), standard queue | Cloud AI art and graphic design platform celebrated for industry-leading embedded typography, poster/logo layouts, Magic Prompt expansion, and style palettes. |
-| **[Recraft](https://recraft.ai)** | Basic ($12/mo), Pro ($24/mo) | Free tier: 50 credits daily with community public generations | AI graphic design and illustration studio capable of generating editable vector art (`SVG`), raster illustrations, brand-consistent icon sets, and mockups. |
-| **[Leonardo.Ai](https://leonardo.ai)** | Apprentice ($12/mo), Artisan ($30/mo), Maestro ($60/mo) | Free tier: 150 fast generation tokens per day (resets daily) | Full-featured creative suite offering custom fine-tuned models, Phoenix/FLUX generation, Realtime Canvas sketching, Live Elements, and prompt guidance tools. |
-| **[Adobe Firefly](https://adobe.com)** | Premium ($4.99/mo) or included with Creative Cloud plans | Free tier: 25 generative credits per month (requires free Adobe ID) | Commercially safe generative AI creative platform integrated across Photoshop and Illustrator for text-to-image synthesis, Generative Fill, and structure/style reference matching. |
-| **[Stability AI Platform / DreamStudio](https://stability.ai)** | API credits from $10 (~1,000 SD3.5 / SDXL credits) | Free tier: 25 one-time trial credits upon account registration | Official cloud API and web interface for Stable Diffusion 3.5, SDXL, ControlNet structural guidance, outpainting, and creative upscaling. |
-| **[Artbreeder](https://artbreeder.com)** | Starter ($8.99/mo), Advanced ($18.99/mo), Champion ($38.99/mo) | Free tier: 3 credits per month, unlimited low-res image breeding and composer access | Collaborative creative platform featuring Mixer, Composer, and genetic latent-space sliders for blending portraits, landscapes, and character concepts. |
-| **[NightCafe Creator](https://nightcafe.studio)** | Beginner ($6/mo), Hobbyist ($12/mo), Enthusiast ($24/mo), Pro ($49/mo) | Free tier: 5 free credits daily + bonus credits for community badges/challenges | Community-driven AI art studio aggregating FLUX, Stable Diffusion, DALL·E, and Imagen models with built-in prompt modifiers and daily art challenges. |
+Whether you are scaling enterprise graphics with hosted SaaS platforms or assembling high-throughput, private local GPU generation pipelines (`ComfyUI`, `FLUX.1`, `SDXL`, `SD 3.5`, `Forge`), this guide details active solutions across text-to-image foundation models, ControlNet spatial guidance, LoRA training, and structured prompt engineering.
 
-## Open-Source GitHub Projects
+### 🔍 Quick Keywords & Categorization
+`AI Art Generation` • `Prompt Crafting & Engineering` • `Text-to-Image Diffusion` • `Rectified Flow Transformers` • `ComfyUI Workflows` • `Stable Diffusion WebUI` • `FLUX.1 Schnell & Dev` • `Inpainting & Outpainting` • `ControlNet Conditioning` • `AI Vector Design`
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted AI Art Platforms](#️-saas--hosted-ai-art-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global **AI Image Generation** and generative visual design sector is valued at approximately **$1.2 billion to $3.0 billion** in 2026 (scaling toward **$8+ billion standalone** and powering an estimated **$11.2 billion** visual generative AI market), compounding at a rapid **CAGR of ~23% to 35%**. 
+
+From a market concentration perspective, the sector exhibits **moderate fragmentation with a bifurcated dynamic**: multi-billion dollar frontier hyperscalers (e.g., OpenAI, Adobe Firefly, Canva/Leonardo) dominate general consumer awareness and enterprise creative suites through walled ecosystems, while high-velocity independent labs (Midjourney, Black Forest Labs, Recraft) and an extraordinarily vibrant, open-source weight and node-based ecosystem (`ComfyUI`, `SDXL`, `FLUX.1`) maintain high technical sovereignty and prevent winner-take-all monopolization among professional creators.
+
+---
+
+## ☁️ SaaS & Hosted AI Art Platforms
+
+The following hosted generative art services offer turnkey browser or API generation pipelines. The table is ranked in descending order by enterprise scale (company valuation or annual revenue run-rate):
+
+| Platform | Company Scale / Valuation / Revenue | Starting Pricing Column | Free Tier / Free Trial Limits | Description & Key Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[OpenAI GPT Image / DALL·E 3](https://openai.com)** | **~$1.25 Trillion** valuation (~$50B ARR) | **$20.00 / month** (ChatGPT Plus) or API from **$0.040 / image** | **Free tier available forever**: ~2-3 image generations per 24-hour rolling window on standard free accounts | Cloud multimodal generation deeply integrated with ChatGPT and OpenAI API for natural-language prompt refinement and high typography fidelity. |
+| **[Adobe Firefly](https://adobe.com)** | **~$94 Billion** market cap (NASDAQ: ADBE) | **$4.99 / month** (Firefly Premium standalone) | **Free tier available forever**: 25 generative credits per month with a standard free Adobe ID | Commercially indemnified generative creative engine integrated across Photoshop and Illustrator with Generative Fill and style matching. |
+| **[Leonardo.Ai (Canva)](https://leonardo.ai)** | **~$35 Billion** parent valuation (Canva acquired for ~$320M; ~$16M historical ARR) | **$12.00 / month** (Apprentice Plan) or **$10.00 / month** (billed annually) | **Free tier available forever**: 150 fast tokens per day (resets every 24 hours, non-accumulating) | Multi-model studio environment offering custom fine-tuned checkpoints, Phoenix/FLUX generation, Realtime Canvas, and prompt guidance. |
+| **[Midjourney](https://midjourney.com)** | **~$10 Billion+** private valuation (~$500M bootstrapped ARR) | **$10.00 / month** (Basic Plan) or **$8.00 / month** (billed annually) | **No ongoing free tier / No free trial** on web or Discord (isolated occasional promo trials on the niji•journey mobile app) | Bootstrapped category leader acclaimed for visual aesthetics, mood coherence, style references (`--sref`), and character consistency. |
+| **[Black Forest Labs (FLUX API)](https://blackforestlabs.ai)** | **~$3.5 Billion** valuation ($300M Series B) | **Pay-as-you-go API**: 1 credit = $0.01; FLUX.1 Pro costs **$0.05 / image**; FLUX.1 Schnell costs **$0.003 / image** | **No permanent free tier**; promotional 50 free credits ($0.50 equivalent) granted upon new developer dashboard account creation | Frontier generative image laboratory behind open-weight FLUX foundation models, delivering prompt adherence and detailed typography. |
+| **[Stability AI Platform](https://stability.ai)** | **~$760 Million** valuation ($76M Series B) | **API credit bundles starting at $10.00** (~1,000 SD3.5 / SDXL credits) | **Free trial**: 25 one-time initial credits upon registration, valid for 30 days | Official cloud API and web portal for Stable Diffusion 3.5, SDXL, and ControlNet guidance. |
+| **[Ideogram](https://ideogram.ai)** | **~$250 Million** valuation ($96.5M total venture funding; ~$7M ARR) | **$8.00 / month** (Basic Plan) or **$7.00 / month** (billed annually) | **Free tier available forever**: 10 slow credits per day (approx. 20-40 image generations/month in standard priority queue) | Groundbreaking typography synthesis, brand logo/poster styling, and intelligent Magic Prompt expansion. |
+| **[Recraft](https://recraft.ai)** | **~$120 Million** valuation ($42M total funding raised; ~$5M+ ARR) | **$12.00 / month** (Basic Plan) or **$10.00 / month** (billed annually) | **Free tier available forever**: 50 credits daily with community public generations | Design-centric studio generating vector art (`SVG`), 3D icons, clean brand assets, and custom style palettes. |
+| **[NightCafe Creator](https://nightcafe.studio)** | **~$3.5 Million** ARR (bootstrapped indie) | **$6.00 / month** (Beginner Plan) or **$4.79 / month** (billed quarterly) | **Free tier available forever**: 5 free credits every day at midnight (UTC) + 2 daily credits for voting in challenges | Multi-model creator hub supporting FLUX, SDXL, and DALL·E with prompt presets, style modifiers, and collaborative competitions. |
+| **[Artbreeder](https://artbreeder.com)** | **~$1.5 Million** ARR (indie creative venture) | **$8.99 / month** (Starter Plan) or **$7.49 / month** (billed annually) | **Free tier available forever**: 3 free credits per month, plus unlimited low-resolution image breeding and composer mixing | Collaborative latent-space creative canvas featuring gene-slider mixing, collage composition, and face tuning. |
+
+---
+
+## 💻 Open-Source GitHub Projects
 
 Curated list of open-source diffusion models, graphical web UIs, prompt assistants, conditioning tools, and image pipelines, sorted by GitHub star count in descending order:
 
@@ -130,17 +165,39 @@ Curated list of open-source diffusion models, graphical web UIs, prompt assistan
 - **[adieyal/comfyui-dynamicprompts](https://github.com/adieyal/comfyui-dynamicprompts)** [![Stars](https://img.shields.io/github/stars/adieyal/comfyui-dynamicprompts?style=social&color=white)](https://github.com/adieyal/comfyui-dynamicprompts/stargazers)  
   ComfyUI port of Dynamic Prompts (`MIT`) bringing wildcards, Jinja2 templating, and automated batch prompt variations directly into node-based generation workflows.
 
-## How to Contribute
+---
 
-We welcome additions, fixes, and updates to this curated ecosystem guide.
+## 🤝 How to Contribute
 
-1. **Check Existing Entries**: Ensure the project, library, or platform isn't already covered.
-2. **Criteria for Inclusion**:
-   - **Open-source projects**: Must be actively maintained, have significant community adoption or novel technical capabilities, and provide working source code.
-   - **SaaS platforms**: Must be recognized generative art platforms with active user bases.
-3. **Format**: Follow the existing format with badges linking to GitHub stargazers for open-source repositories and clear, objective feature summaries.
-4. **Submit a Pull Request**: Detail your additions in the PR description and link to official sources.
+We welcome community additions, benchmark updates, and prompt design tools!
 
-## Disclaimer
+1. 🍴 **Fork the Repository** to your own GitHub account.
+2. 🌿 **Create a Branch** (`git checkout -b feature/new-art-tool`).
+3. 📝 **Add Your Resource**:
+   - For open-source repositories, provide the exact GitHub repository identifier with a Shields.io star badge (`?style=social&color=white`) linking to its stargazers page.
+   - For SaaS tools, provide exact starting tier prices and specific free tier limits.
+4. 📬 **Submit a Pull Request** with a descriptive summary of why the tool provides distinct value to creators.
 
-*All product names, logos, brands, and registered trademarks belong to their respective owners. Inclusion in this list is for informational and educational purposes only and does not constitute an official endorsement.*
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated ecosystem directory helpful for your creative workflow, research, or development projects, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork and share** it with fellow AI artists, prompt engineers, and developers.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance, benchmarks, and ecosystem curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support is deeply appreciated and directly helps keep this resource comprehensive and up-to-date! 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Art-Generation-Prompt-Crafting&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+*All product names, logos, brands, and registered trademarks belong to their respective owners. Inclusion in this list is for educational, navigational, and archival purposes only and does not constitute an official endorsement.*
